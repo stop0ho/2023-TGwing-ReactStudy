@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  width: 300px;
+  border: 1px solid #000;
+  margin: 50px 0 30px 0;
+}
+
+.nav-header {
+  height: 50px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-content nav {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-content nav:hover {
+  background: rgb(185, 184, 184);
+}
+
+.bg-gray {
+  background: rgb(185, 184, 184);
+}
